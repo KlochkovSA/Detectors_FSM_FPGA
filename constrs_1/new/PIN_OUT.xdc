@@ -1,0 +1,16 @@
+# Входные порты
+set_property PACKAGE_PIN A20 [get_ports clk]
+set_property PACKAGE_PIN D18 [get_ports dataIn]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports dataIn]
+# Выходные порты
+set_property PACKAGE_PIN D20 [get_ports detect55]
+set_property PACKAGE_PIN E19 [get_ports detect59]
+set_property PACKAGE_PIN F17 [get_ports begP]
+set_property PACKAGE_PIN M20 [get_ports endP]
+set_property IOSTANDARD LVCMOS33 [get_ports detect55]
+set_property IOSTANDARD LVCMOS33 [get_ports detect59]
+set_property IOSTANDARD LVCMOS33 [get_ports begP]
+set_property IOSTANDARD LVCMOS33 [get_ports endP]
+set_property CFGBVS VCCO [current_design]
+set_property CONFIG_VOLTAGE 3.3 [current_design]
